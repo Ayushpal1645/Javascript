@@ -14,7 +14,7 @@ console.log(otherNUm.toPrecision(3)); //toPrecision() method formats a number to
 //  It returns a string representation of the number with the specified number of significant digits.
 
 const num1= 10000000;
-console.log(num1.toLocaleString('en-IN'));
+console.log(num1.toLocaleString('en-IN'));//toLocaleString() method returns a string with a language-sensitive representation of this number.
 
 
 
