@@ -4,8 +4,8 @@ const dc_heroes=["superman","batman","flash"]
 // marvel_heroes.push(dc_heroes)
 // console.log(marvel_heroes);
 
-// const all_heroes=marvel_heroes.concat(dc_heroes)
-// console.log(all_heroes);
+const all_heroes=marvel_heroes.concat(dc_heroes)
+console.log(all_heroes);
  const all_new_heroes=[...marvel_heroes,...dc_heroes] /* ye spread operator hai jo array ke elements ko alag
    alag kar deta hai aur ek new array bana deta hai aur isme 1 se jayda array add akr skte hai*/
     // console.log(all_new_heroes);
